@@ -1,0 +1,138 @@
+{
+    "Actor": {
+      "types": ["character", "npc"],
+      "templates": {
+        "base": {
+          "fear": {},
+          "condition": {
+            "type": "list"
+          },
+          "specialization": {
+            "type": "list"
+          },
+          "description": {
+            "age": "",
+            "pronoun": "",
+            "weight": "",
+            "height": "",
+            "fears": "",
+            "likes": "",
+            "dislikes": "",
+            "bio": "",
+            "addinfo": ""
+          },
+          "abilities": {
+            "pow": {
+              "label": "power",
+              "value": "1d4"
+            },
+            "mob": {
+              "label": "mobility",
+              "value": "1d4"
+            },
+            "mig": {
+              "label": "might",
+              "value": "1d4"
+            },
+            "ing": {
+              "label": "ingenuity",
+              "value": "1d4"
+            },
+            "pre": {
+              "label": "presence",
+              "value": "1d4"
+            },
+            "res": {
+              "label": "resilience",
+              "value": "1d4"
+            }
+          }
+        }
+      },
+      "character": {
+        "templates": ["base"],
+        "attributes": {
+          "level": {
+            "value": ""
+          },
+          "experience": {
+            "value": ""
+          }
+        },
+        "skills": {
+          "type": "list"
+        },
+        "drawbacks": {
+          "type": "list"
+        },
+        "skillModifier": {
+          "value": 0
+        },
+        "drawbackModifier": {
+          "value": 0
+        }
+      },
+      "npc": {
+        "templates": ["base"],
+        "dr": {
+          "type": "number",
+          "label": "Danger Rating",
+          "value": 0
+        }
+      }
+    },
+    "Item": {
+      "types": ["item", "gear", "weapon", "salvage", "meter", "skill", "drawback", "specialization"],
+      "templates": {
+        "base": {
+          "description": ""
+        }
+      },
+      "item": {
+        "templates": ["base"],
+        "quantity": 0,
+        "weight": 0
+      },
+      "gear": {
+        "templates": ["base"],
+        "quantity": 0,
+        "weight": 0,
+        "uses": 0
+      },
+      "weapon": {
+        "templates": ["base"],
+        "quantity": 0,
+        "weight": 0,
+        "ammo": 0
+      },
+      "salvage": {
+        "templates": ["base"],
+        "quantity": 0,
+        "weight": 0,
+        "type": "text"
+      },
+      "meter": {
+        "templates": ["base"],
+        "quantity": 0,
+        "weight": 0
+      },
+      "skill": {
+        "templates": ["base"],
+        "value": "",
+        "skillModifier": 0
+      },
+      "drawback": {
+        "templates": ["base"],
+        "value": "",
+        "drawbackModifier": 0
+      },
+      "specialization": {
+        "templates": ["base"],
+        "bonus": "text",
+        "value": 0
+      }
+    }
+  }
+  
+
+  

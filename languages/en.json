@@ -1,0 +1,38 @@
+{
+    "fright9e": {
+         "abilities":{
+             "power": "pow",
+             "mobility": "mob",
+             "might": "mig",
+             "ingenuity": "ing",
+             "presence": "pre",
+             "resilience": "res"
+         },
+         "specialization": {
+            "agriculture":"Agriculture",
+            "criminal":"criminal",
+            "engineering":"Engineering",
+            "entertainment":"Entertainment",
+            "leadership":"Leadership",
+            "medicine":"Medicine",
+            "military": "Military",
+            "mysticArts":"Mystic Arts",
+            "shield": "S.H.I.E.L.D",
+            "student":"Student"
+         },
+         "condition": {
+            "healthy":"Healthy",
+            "stable":"Stable",
+            "hurt":"Hurt",
+            "bleeding":"Bleeding",
+            "sick":"Sick",
+            "brokenLimb":"Broken Limb",
+            "severedLimb":"Severed Limb",
+            "crippled":"Crippled",
+            "infected":"Infected",
+            "unconscious":"Unconscious",
+            "dying":"Dying",
+            "dead":"Dead"
+         }
+     }
+ }
