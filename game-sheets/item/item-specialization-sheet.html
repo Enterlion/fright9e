@@ -1,0 +1,24 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+      <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+    </header>
+    <div>
+      <table>
+        <tr>
+          <td>
+            <fieldset name="specialization-selector">
+                <legend>Select Your Specialization</legend>
+                <select>
+                  {{> specialization-list}}
+                </select>
+              </fieldset>
+              
+          </td>
+        </tr>
+      </table>
+    </div>
+  </form>
+  
+  
+  
+  
